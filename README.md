@@ -16,9 +16,9 @@ cooldown after every exit.
 
 ## Layout
 
-- `main.py` — the bot (Python 3, standard library only). Run by the
-  harness as `node /bot/main.ts`.
-- `vendor/makefun_bars.py` — the kit's Python SDK shim for the
+- `main.ts` — the bot (TypeScript, Node 22, standard library only),
+  run by the harness as `node /bot/main.ts`.
+- `vendor/makefun-bars.ts` — the kit's TypeScript SDK shim for the
   bars-replay protocol, copied byte for byte from the competition kit.
 - `.makefun/owner.json` — the entry claim file naming the payout
   wallet linked to the entrant's account.
