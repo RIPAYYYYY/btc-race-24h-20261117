@@ -17,7 +17,7 @@ cooldown after every exit.
 ## Layout
 
 - `main.py` — the bot (Python 3, standard library only). Run by the
-  harness as `python3 -P -s /bot/main.py`.
+  harness as `node /bot/main.ts`.
 - `vendor/makefun_bars.py` — the kit's Python SDK shim for the
   bars-replay protocol, copied byte for byte from the competition kit.
 - `.makefun/owner.json` — the entry claim file naming the payout
